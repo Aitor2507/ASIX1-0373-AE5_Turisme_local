@@ -21,8 +21,17 @@ aside,section {
     padding: 20px;
     border:  1px solid black;
 }
-.borde {
+.borde1 {
     border: 1px solid black;
+    width: 15%;
+}
+.borde2 {
+    border: 1px solid black;
+    width: 60%;
+}
+.borde3 {
+    border: 1px solid black;
+    width: 25%;
 }
 @media (max-width: 700px) {
     header{
@@ -36,7 +45,16 @@ aside,section {
     }
     aside,section {
         width: 100%;
-        
+        text-align: center;
+    }
+    .borde1 {
+        width: 100%;
+    }
+    .borde2 {
+        width: 100%;
+    }
+    .borde3 {
+        width: 100%;
     }
     h1 {
         font-size: 24px; 
