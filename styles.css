@@ -23,7 +23,7 @@ aside,section {
 }
 .borde1 {
     border: 1px solid black;
-    width: 15%;
+    width: 20%;
 }
 .borde2 {
     border: 1px solid black;
@@ -31,7 +31,16 @@ aside,section {
 }
 .borde3 {
     border: 1px solid black;
-    width: 25%;
+    width: 20%;
+}
+#huaca {
+    width: 100%;
+    height: 40%;
+}
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 @media (max-width: 700px) {
     header{
